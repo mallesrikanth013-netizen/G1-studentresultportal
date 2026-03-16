@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Results Portal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+</head>
+
+<body>
+
+<h1>Student Result Portal</h1>
+
+<input type="text" id="roll" placeholder="Enter Roll Number">
+<button onclick="getResult()">Check Result</button>
+
+<div id="result"></div>
+
+<a href="admin.html">Admin Login</a> |
+<a href="feedback.html">Feedback</a>
+
+<script src="firebase.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
